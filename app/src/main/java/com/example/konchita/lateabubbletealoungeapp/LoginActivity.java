@@ -34,8 +34,6 @@ public class LoginActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        //find out what the fuck is wrong with this
         getSupportActionBar().hide();
         ParseUser currentUser = ParseUser.getCurrentUser();
 
@@ -80,7 +78,7 @@ public class LoginActivity extends AppCompatActivity  {
                         Log.d(GlobalConstants.FACEBOOK_LOGIN_DEBUG, "Last Name: " + last_name);
                         Log.d(GlobalConstants.FACEBOOK_LOGIN_DEBUG, "Gender: " + gender);
                         Log.d(GlobalConstants.FACEBOOK_LOGIN_DEBUG, "Email: " + email);
-                        
+
                         parseUser.put(GlobalConstants.USER_FIRST_NAME, first_name);
                         parseUser.put(GlobalConstants.USER_LAST_NAME, last_name);
                         parseUser.put(GlobalConstants.USER_GENDER, gender);
