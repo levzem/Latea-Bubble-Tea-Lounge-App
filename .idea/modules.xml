@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Latea-Bubble-Tea-Lounge-App.iml" filepath="$PROJECT_DIR$/Latea-Bubble-Tea-Lounge-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LateaBubbleTeaLoungeApp.iml" filepath="$PROJECT_DIR$/LateaBubbleTeaLoungeApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

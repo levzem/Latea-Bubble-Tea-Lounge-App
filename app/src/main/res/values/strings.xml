@@ -2,4 +2,5 @@
     <string name="app_name">Latea Bubble Tea Lounge App</string>
     <string name="company_name">Latea</string>
     <string name="fb_key">741270212672742</string>
+    <color name="lateagreen">#00000</color>
 </resources>
