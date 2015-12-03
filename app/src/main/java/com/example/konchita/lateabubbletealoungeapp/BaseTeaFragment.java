@@ -19,7 +19,7 @@ import android.util.Log;
 
 
 /**
- *
+ *   Made by Lev on 12/3
  */
 public class BaseTeaFragment extends Fragment
 {
@@ -64,7 +64,7 @@ public class BaseTeaFragment extends Fragment
                         LinearLayout ll = (LinearLayout) view.findViewById(R.id.fragment_base_tea_layout);
                         ll.addView(button, lp);
                     }
-                } else Log.d("ChangethislaterDerek", e.getMessage());
+                } else Log.d("Change this later Lerek", e.getMessage());
             }
         });
 
