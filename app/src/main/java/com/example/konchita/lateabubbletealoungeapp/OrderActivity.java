@@ -11,7 +11,7 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.add(R.id.title_of_recycler_page, new SizeFragment());
+        ft.add(R.id.title_of_recycler_page, new BaseTeaFragment());
         ft.addToBackStack(null);
         ft.commit();
     }

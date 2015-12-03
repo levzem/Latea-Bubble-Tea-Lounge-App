@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.konchita.lateabubbletealoungeapp.BaseTeaFragment"
-    android:id="@+id/fragment_base_tea" >
+    android:id="@+id/fragment_base_tea_layout"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
