@@ -9,10 +9,18 @@ public class GlobalConstants {
 
     public static final String FACEBOOK_LOGIN_DEBUG = "FB_LOGIN_D";
 
-    //Parse Model
+    //Parse User Model
     public static final String USER_TABLE = "User";
     public static final String USER_FIRST_NAME = "FirstName";
     public static final String USER_LAST_NAME = "LastName";
-    public static final String USER_PROFILE_ID = "ProfId";
     public static final String USER_GENDER = "Gender";
+
+    //Parse Flavor Model
+    public static final String FLAVOR_TABLE = "Flavor";
+    public static final String FLAVOR_ID = "Flavor";
+    public static final String Flavor_BASE = "Base";
+
+    //Parse TeaBase Model
+    public static final String TEABASES_TABLE = "TeaBases";
+    public static final String TEABASES_ID = "Base";
 }

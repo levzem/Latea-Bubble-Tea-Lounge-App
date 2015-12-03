@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
         ParseUser currentUser = ParseUser.getCurrentUser();
-
         if (currentUser != null && ParseFacebookUtils.isLinked(currentUser)) toOrderActivity();
     }
 
