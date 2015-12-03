@@ -1,13 +1,10 @@
 package com.example.konchita.lateabubbletealoungeapp;
 
 
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -33,7 +30,7 @@ public class FlavorFragment extends ListFragment {
         query.whereEqualTo(GlobalConstants.FLAVOR_BASE, "Green");
         Log.d(GlobalConstants.PARSE_DEBUG, "I GET HERE");
         List<ParseObject> list;
-        items = new ArrayList<FlavorListViewItem>();
+        items = new ArrayList<>();
 
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
