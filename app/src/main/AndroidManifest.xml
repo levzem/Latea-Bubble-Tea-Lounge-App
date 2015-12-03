@@ -24,7 +24,8 @@
 
         <activity
             android:name=".OrderActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

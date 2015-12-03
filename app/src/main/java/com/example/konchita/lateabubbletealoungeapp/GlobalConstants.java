@@ -7,7 +7,11 @@ public class GlobalConstants {
     public static final String PARSE_APP_ID = "vFNm07uCW7gG5FE9wZfuDDV2BGLA4E99MD2hg0lb";
     public static final String PARSE_CLIENT_KEY = "1le7rAO2WaDG0M84KUXmsEBKEw6FSkd2JQfMgA09";
 
+    public static final String TEA_TYPE = "Tea_Type";
+
     public static final String FACEBOOK_LOGIN_DEBUG = "FB_LOGIN_D";
+    public static final String PARSE_DEBUG = "PARSE_D";
+
 
     //Parse User Model
     public static final String USER_TABLE = "User";
@@ -18,7 +22,7 @@ public class GlobalConstants {
     //Parse Flavor Model
     public static final String FLAVOR_TABLE = "Flavor";
     public static final String FLAVOR_ID = "Flavor";
-    public static final String Flavor_BASE = "Base";
+    public static final String FLAVOR_BASE = "Base";
 
     //Parse TeaBase Model
     public static final String TEABASES_TABLE = "TeaBases";
